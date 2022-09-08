@@ -63,7 +63,7 @@ int temp_, hum_ ;
 
 //Zaman intervalleri
 #define NTP_OFFSET   60 * 60      // In seconds
-#define NTP_INTERVAL 300 * 1000    // In miliseconds, 5 dk da bir güncelleme
+#define NTP_INTERVAL 60 * 1000    // In miliseconds,  dk da bir güncelleme
 #define NTP_ADDRESS  "tr.pool.ntp.org"  // The nearest ntp pool; "north-america.pool.ntp.org" or "asia.pool.ntp.org" "tr.pool.ntp.org" etc...
 
 WiFiServer server(SERVER_PORT);
